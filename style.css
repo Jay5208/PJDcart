@@ -146,20 +146,31 @@ header{
     width: 17.1rem;
 
 }
+
+@media (max-width:360px){
+    body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .mdImgSlider .sliderImg{
+        height: 200px;
+    }
+}
+
 @media (max-width:768px) {
     
     .outfit-card .row .col-12 .card{
-        width: 32rem;
+        width:  300px;
         display: flex;
     }
     .category-card .row .card{
         width: 16rem;
         display: flex;
     }
-    .outfit-card .row .col-12 .card img{
-        width: 17rem;
-
-    }
+   
     .outfit-card .row .col-12{
         display: flex;
         flex-direction: column;
@@ -170,7 +181,7 @@ header{
         flex-direction: row;
     }
     .outfit-card .row .col-12 .card img{
-        max-width: 45%;
+        max-width: 55%;
     }
 }
 
