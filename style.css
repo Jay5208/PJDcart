@@ -320,12 +320,12 @@ header{
 }
 @media (max-width:400px) {
     .productCard,.category-card .container .row .col{
-        width: 300px;
+        width: 250px;
         
     }
     .productCard img ,.category-card .container .row .col img{
 
-        width: 270px;
+        width: 100%;
         height: 280px;
     }
 }
